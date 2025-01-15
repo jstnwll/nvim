@@ -29,6 +29,7 @@ return {
       lspconfig.lua_ls.setup {}
       lspconfig.pyright.setup {}
       lspconfig.tailwindcss.setup {}
+      lspconfig.ruff.setup {}
     end,
   },
   {

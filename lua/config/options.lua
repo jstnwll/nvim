@@ -8,4 +8,4 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.number = true
 vim.opt.relativenumber = false
-vim.opt.signcolumn = "number"
+vim.opt.signcolumn = "auto"
