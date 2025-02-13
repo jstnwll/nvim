@@ -35,7 +35,7 @@ return {
 				javascript = { "prettier" },
 				lua = { "stylua" },
 				python = { "black", "ruff" },
-				sql = { "sqlfmt" },
+				sql = { "sql-formatter" },
 			},
 		},
 	},
