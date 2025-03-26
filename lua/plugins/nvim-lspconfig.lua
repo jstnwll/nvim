@@ -15,6 +15,14 @@ return {
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
+			vim.diagnostic.config({
+				virtual_text = false, -- Disable inline messages
+				float = {
+					source = "always",
+					border = "rounded",
+					wrap = true, -- Ensures messages wrap inside the floating window
+				},
+			})
 			local servers = {
 				clangd = {},
 				cssls = {},
