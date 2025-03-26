@@ -24,6 +24,7 @@ return {
 				},
 			})
 			local servers = {
+				angularls = {},
 				clangd = {},
 				cssls = {},
 				html = {},
